@@ -124,6 +124,7 @@ public class IO {
         do {
             result = getInt(prompt);
         }while (result < from || result > to);
+
         return result;
     }
 
@@ -146,4 +147,5 @@ public class IO {
         }
         System.out.println();
     }
+
 }
